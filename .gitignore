@@ -1,5 +1,94 @@
-# Created by https://www.toptal.com/developers/gitignore/api/python,macos
-# Edit at https://www.toptal.com/developers/gitignore?templates=python,macos
+### C ###
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+### C (extras habituales) ###
+# Preprocesado / assembly
+*.i
+*.s
+
+# Coverage / profiling
+*.gcda
+*.gcno
+*.gcov
+*.profraw
+*.profdata
+
+# Sanitizers / perf / valgrind
+vgcore.*
+perf.data
+perf.data.old
+
+# Build dirs (convención)
+bin/
+obj/
+out/
+Debug/
+Release/
+cmake-build-*/
+CMakeFiles/
+
+# CMake generated
+CMakeCache.txt
+cmake_install.cmake
+Makefile.user
+compile_commands.json
+
+# Ejecutables sin extensión (añade aquí los nombres concretos si compilas en la raíz)
+# main
+# push_swap
+# philo
+# mi_programa
 
 ### macOS ###
 # General
@@ -41,7 +130,6 @@ __pycache__/
 *$py.class
 
 # C extensions
-*.so
 
 # Distribution / packaging
 .Python
@@ -205,5 +293,3 @@ poetry.toml
 
 # LSP config files
 pyrightconfig.json
-
-# End of https://www.toptal.com/developers/gitignore/api/python,macos
